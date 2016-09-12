@@ -1,0 +1,55 @@
+/*红包首页*/
+*{ margin: 0; padding: 0;}
+html,body{ width:100%; height:100%;}
+.hide{ display: none;}
+.redbg{ width:100%; height:100%; background: url("../img/redbag/bg.jpg") no-repeat; background-size: 100% 100%;}
+.redbg .sm{ position: fixed; top:0; right:5%; width:28%}
+.redbg div.btn{ position: fixed; bottom:30px; width:60%; height:35px; text-align:center; line-height:35px; color:#040000;left: 20%; background: #f4d121; border-radius: 10px; box-shadow: 1px 2px 0 #040000}
+.redbg input.btn{ position: fixed; bottom:30px; width:60%; height:35px; text-align:center; line-height:35px; border:none; color:#040000;left: 20%; background: #f4d121; border-radius: 10px; box-shadow: 1px 2px 0 #040000}
+.redbg .red{ width:100%; height:100%; position:absolute; top:0; z-index: 10; background:rgba(0,0,0,0.8)}
+.redbg .red .success .successimg{ width:100%; position:absolute;bottom:0; height:76%;}
+.redbg .red .success div.btn2{ width: 100%;  position: absolute;z-index: 1000;  bottom:4%; }
+.redbg .red .success div.btn2 .btn1{ width:30%; margin-left:13%; background: #f4d121; text-align: center; color:#a67109; line-height: 32px; height:32px; border-radius: 10px; box-shadow: 1px 2px 0 #a36d17; float: left;}
+.redbg .red .fault .faultimg{ width:100%; }
+.redbg .red .fault div.btn2{width:50%; position: absolute; margin-top:-20%; left:25%; height:30px; line-height: 30px; color:#fff; font-size: 12px; border-radius: 15px; background: #fc4d54; text-align: center}
+
+/*红包说明*/
+.smbg{width:100%; height:100%; background: url("../img/redbag/smdetail.jpg") no-repeat; background-size: 100% 100%;}
+
+/*中奖记录*/
+.jl{width:100%; height:100%; background: url("../img/redbag/jl.jpg") no-repeat; background-size: 100% 100%;}
+.jl .content{ width:50%; position: absolute; left:26%; top:42%; height:40%; overflow-y: scroll}
+.jl .content li{ width:100%; font-size: 12px; margin-bottom: 12px;}
+.jl .content li div{ width:100%; line-height: 20px;}
+.jl .content li span:nth-child(1){ display: inline-block; width:60%;}
+
+.jl .btn{ width:30%; margin-left:35%; bottom: 10%; position: absolute; background: #f4d121; text-align: center; color:#a67109; line-height: 32px; height:32px; border-radius: 10px; box-shadow: 1px 2px 0 #a36d17;}
+
+.messageimg{width:100%; height:100%; background: url("../img/redbag/bgMessage.jpg") no-repeat; background-size: 100% 100%; position:absolute
+; top:0;}
+.contentImg{ width:100%; position: absolute; bottom:20%}
+.messageimg .content{ width:60%; height:17%; position: absolute; bottom: 20%; margin-left: 21%}
+.messageimg .content li{ width:100%; list-style-type: none; height:30px; line-height: 30px;
+    clear: both;}
+.messageimg .content li .name{ float: left;width:23%; margin-top: 6%}
+.messageimg .content li input{ float: left;border: none;border-bottom: 1px solid #ffef00; width:48%; margin-left: 2%;  background: transparent;margin-top: 7%}
+.messageimg .content li div{ float: left; width:21%; margin-left: 5%; height:20px; border-left: 1px solid #ffef00; text-align: center;margin-top: 5%}
+.messageimg .content li div img{ width:80%;}
+.messageimg .content li div span{top: -185%; position: relative; color:#ee0011; font-size:14px;}
+.messageimg p{  width:100%; position: absolute; bottom:15%; text-align: center; font-size: 14px; }
+.messageimg .zhushi{  width:100%; position: absolute; bottom:8%; text-align: center; font-size: 12px; line-height:16px;}
+
+
+
+
+
+/*常规提示GeneralTips*/
+.GeneralTips{ padding:15px 8px; background:rgba(0,0,0,0.4); color:rgba(255,255,255,.7); position:absolute; border-radius:4px; z-index:100}
+
+
+
+
+
+
+/*常规提示GeneralTips*/
+.GeneralTips{ padding:15px 8px; background:rgba(0,0,0,0.4); color:rgba(255,255,255,.7); position:absolute; border-radius:4px; z-index:100}

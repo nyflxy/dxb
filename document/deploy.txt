@@ -1,0 +1,18 @@
+apt-get install python-pip
+apt-get install mongodb
+apt-get install supervisor
+apt-get install git
+apt-get install nginx
+apt-get install curl libcurl3 libcurl3-dev php5-curl
+apt-get install redis-server
+apt-get install python-dev
+pip install requests
+pip install tornado
+pip install pymongo
+pip install requests
+pip install redis
+pip install futures
+pip install pycurl
+pip install python-oauth2
+pip install pillow
+pip install jieba
